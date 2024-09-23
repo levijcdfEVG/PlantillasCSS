@@ -1,0 +1,41 @@
+/* Estilos básicos para botones */
+button, .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Botones de colores */
+.btn-primary {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Tamaños de botones */
+.btn-small {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-large {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* Botones con efecto hover */
+.btn:hover {
+    opacity: 0.8;
+}
